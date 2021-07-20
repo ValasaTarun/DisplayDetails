@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Display</title>
+    <style>
+        body{
+            padding: 5px;
+        }
+        .site-footer {
+            margin-top: 220px;
+            font-family: 'Roboto', sans-serif;
+            background-color: #26272b;
+            padding: 45px 0 20px;
+            font-size: 15px;
+            line-height: 24px;
+            color: #737373;
+        }
+
+        .site-footer hr {
+            border-top-color: black;
+            opacity: 0.5
+        }
+
+        .site-footer hr.small {
+            margin: 20px 0
+        }
+
+        .site-footer h6 {
+            color: #fff;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-top: 5px;
+            letter-spacing: 2px
+        }
+
+        .site-footer a {
+            color: #737373;
+        }
+
+        .site-footer a:hover {
+            color: #3366cc;
+            text-decoration: none;
+        }
+
+        .footer-links {
+            padding-left: 0;
+            list-style: none
+        }
+
+        .footer-links li {
+            display: block
+        }
+
+        .footer-links a {
+            color: #737373
+        }
+
+        .footer-links a:active,
+        .footer-links a:focus,
+        .footer-links a:hover {
+            color: #3366cc;
+            text-decoration: none;
+        }
+
+        .footer-links.inline li {
+            display: inline-block
+        }
+
+        .site-footer .social-icons {
+            text-align: right
+        }
+
+        .site-footer .social-icons a {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin-left: 6px;
+            margin-right: 0;
+            border-radius: 100%;
+            background-color: #33353d
+        }
+
+        .copyright-text {
+            color: white;
+            margin: 0
+        }
+
+        @media (max-width:991px) {
+            .site-footer [class^=col-] {
+                margin-bottom: 30px
+            }
+        }
+
+        @media (max-width:767px) {
+            .site-footer {
+                padding-bottom: 0
+            }
+
+            .site-footer .copyright-text,
+            .site-footer .social-icons {
+                text-align: center
+            }
+        }
+
+        .social-icons {
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none
+        }
+
+        h5 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 3px;
+        }
+
+
+
+        button {
+            background-color: #e7e7e7;
+            color: black;
+            border-radius: 2px;
+            margin-bottom: 60px;
+        }
+
+
+        h6 {
+            margin-left: 20px;
+        }
+
+        .header {
+            padding: 7px;
+            text-align: center;
+            background: grey;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h2 {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            text-align: center;
+            padding: 7px;
+        }
+        button{
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        thead{
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Taurn University</h1>
+        <p>Providing <b>Quality</b> Education</p>
+    </div>
+    <div class="main">
+        <center>
+            <h2>Marks Scored</h2>
+        </center>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Subject</th>
+                <th scope="col">Total Marks</th>
+                <th scope="col">Marks Scored</th>
+                <th scope="col">Pass/Fail</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Engineering Mathematics</th>
+                <td>100</td>
+                <td>89</td>
+                <td>Pass</td>
+              </tr>
+              <tr>
+                <th>C++ Lab</th>
+                <td>100</td>
+                <td>84</td>
+                <td>Pass</td>
+              </tr>
+              <tr>
+                <th>Communications Skills</th>
+                <td>100</td>
+                <td>87</td>
+                <td>Pass</td>
+              </tr>
+              <tr>
+                <th>Web Technologies</th>
+                <td>100</td>
+                <td>95</td>
+                <td>Pass</td>
+              </tr>
+              <tr>
+                <th>Data Structures</th>
+                <td>100</td>
+                <td>75</td>
+                <td>Pass</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <footer class="site-footer">
+        <div class="container">
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <center>
+                        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by Tarun University .
+                        </p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
